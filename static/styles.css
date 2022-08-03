@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  color: white;
+  background: darkred;
+}
+
+.wrapper {
+  margin: auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+main {
+  line-height: 2rem;
+}
+
+form input[type="text"] {
+  right: 0;
+  margin-inline: 20px;
+  width: 150px;
+}

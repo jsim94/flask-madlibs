@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Enter Words{% endblock %}
+
+{% block content %}
+
+<h2>Enter your words</h2>
+
+<form action="/story">
+  {% for prompt in needed_prompts %}
+  <label for="{{prompt}}">{{prompt}}</label>:<input type="text" name="{{prompt}}"><br>
+  {% endfor %}
+  <input type="submit">
+</form>
+<script src="/static/form_check.js"></script>
+{% endblock %}
