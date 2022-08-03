@@ -1,7 +1,6 @@
 from flask import Flask, request, render_template
 from flask_debugtoolbar import DebugToolbarExtension
 from stories import StoryList
-from flask import make_response
 
 app = Flask(__name__)
 app.debug = False
